@@ -1,82 +1,77 @@
 name,ring,quadrant,isNew,description
-"Slite","Uforsk","Tools","TRUE","Dok i på team nivå. Test fra PI24. https://slite.com/"
-"SonarQube","Bruk","Tools","TRUE","Verktøy for kvalitetsanalyse av kildekode"
-"Charles proxy","Uforsk","Tools","TRUE","Debugging og mocking av API-data for native"
-"Conduktor","Bruk","Tools","TRUE","Verktøy for inspisering av Kafka-meldinger"
-"Docker Desktop","Bruk","Tools","TRUE","Lokal utvikling"
-"Figma","Bruk","Tools","TRUE","UX design og prototyping"
-"IntelliJ","Bruk","Languages-and-frameworks","TRUE","Java og Kotlin IDE"
-"SQL Developer","Bruk","Languages-and-frameworks","TRUE","Databaseaksess"
-"Secure CRT","Bruk","Platform","TRUE","SSH og Telnet-klient"
-"Teams","Bruk","Tools","TRUE","Kommunikasjonsplattform"
-"Slack","Begrens","Tools","TRUE","Kommunikasjonsplattform"
-"Kafka","Bruk","Platform","TRUE","Event streaming plattform"
-"Kafka Connect","Bruk","Platform","TRUE","Event streaming plattform"
-"Browser stack","Bruk","Tools","TRUE","Web og mobil testverktøy"
-"Miro","Bruk","Tools","TRUE","Kommunikasjon- og samarbeidsverktøy"
-"Sketch","Avslutt","Tools","TRUE","UX design og prototyping"
-"Abstract","Avslutt","Tools","TRUE","UX design og prototyping"
-"Mermaid","Bruk","Tools","TRUE","Språk/verktøry for å beskrive diagrammer"
-"Jenkins","Avslutt","Platform","TRUE","CI/CD-plattform"
-"Sentry","Avslutt","Languages-and-frameworks","TRUE","Rammeverk for feilsøking og overvåking (Omniweb)"
-"webpack","Bruk","Tools","TRUE","Pakkeverktøy for JavaScript-applikasjoner"
-"Cypress","Bruk","Tools","TRUE","Testverktøy for front end"
-"Splunk","Bruk","Tools","TRUE","Verktøy for feilsøking og overvåking"
-"AppDynamics","Bruk","Tools","TRUE","Verktøy for feilsøking og overvåking"
-"Kotlin","Bruk","Languages-and-frameworks","TRUE","Programmeringsspråk"
-"Java","Bruk","Languages-and-frameworks","TRUE","Programmeringsspråk"
-"Spring boot","Bruk","Languages-and-frameworks","TRUE","Rammeverk for REST-API'er"
-"Sonarlint","Bruk","Tools","TRUE","IntelliJ plugin for kvalitetsanalyse av kildekode"
-"Grafana","Bruk","Tools","TRUE","Verktøy for overvåking. Visualisering av metrikker."
-"Prometheus","Bruk","Platform","TRUE","Verktøy for overvåking. Innsamling av metrikker."
-"ArgoCD","Bruk","Platform","TRUE","CD-platform for k8s"
-"Flyway","Bruk","Tools","TRUE","Automatisk DB-deployment/migrering"
-"Ktor","Bruk","Languages-and-frameworks","TRUE","Rammeverk for asynkrone løsninger i Kotlin"
-"Apache Maven","Bruk","Tools","TRUE","Verktøy for automatiserte bygg"
-"logback","Begrens","Platform","TRUE","Rammeverk for serialisering av darta basert på JSON-spec"
-"log4j","Bruk","Tools","TRUE","Verktøy for logging"
-"Bender","Bruk","Platform","TRUE","Konfigurasjonsrepository"
-"mg","Begrens","Tools","TRUE","Egenutviklet kommandolinjeverktøy bruker metaGraf-spec for å lage nødvendige “byggeklosser” i Kubernetes eller OpenShift"
-"Middle Earth","Begrens","Tools","TRUE","Egenutviklet verktøy for deployment i alle miljøer"
-"Websphere Liberty Profile","Begrens","Platform","TRUE","IBM appserver"
-"Lombok","Begrens","Techniques","TRUE","Java-bibliotek for redusering av boilerplate-kode"
-"Kanban","Bruk","Techniques","TRUE",
-"SAFe","Bruk","Techniques","TRUE",
-"Scrum","Bruk","Techniques","TRUE",
-"OpenID Connect/Keycloak/OAuth2","Bruk","Platform","TRUE","Autentiserings- og autorisasjonsverktøy"
-"Vault","Bruk","Platform","TRUE","System for håndering av hemmeligheter"
-"QlikView","Bruk","Platform","TRUE","ETL og Business analyse"
-"Power BI","Uforsk","Tools","TRUE","ETL og Business analyse"
-"Business Objects","Bruk","Platform","TRUE","ETL og Business analyse"
-"Gatling","Bruk","Tools","TRUE","Verktøy for ytelsestest"
-"Postman","Bruk","Tools","TRUE","Verktøy for utvikling og automatiserte tester av API-er"
-"Fitnesse","Avslutt","Tools","TRUE","Verktøy for automatiserte tester"
-"Google Analytics","Bruk","Platform","TRUE","Verktøy for webanalyse"
-"Hotjar","Bruk","Tools","TRUE","Verktøy for analyse av brukerinteraksjon på web"
-"QlikSense","Bruk","Platform","TRUE","ETL og Business analyse"
-"VSCode","Bruk","Languages-and-frameworks","TRUE","IDE"
-"Git","Bruk","Tools","TRUE","Versjonskontrollsystem"
-"Bitbucket","Begrens","Tools","TRUE","Git repository hosting system"
-"bash/zsh/fish","Bruk","Tools","TRUE","Unix shell"
-"powershell","Bruk","Tools","TRUE","Windows shell"
-"Open API specificaton","Bruk","Techniques","TRUE","Spec for dok av REST-tjenester"
-"axe","Bruk","Tools","TRUE","Validering av UU for web"
-"graphql","Begrens","Languages-and-frameworks","TRUE","Query languange for API"
-"Enonic XP","Begrens","Platform","TRUE","CMS"
-"Websocket","Bruk","Platform","TRUE","Kommunkasjonsprotokoll web browser <-> server"
-"Openshift","Bruk","Platform","TRUE","k8s container plattform"
-"winscp","Bruk","Languages-and-frameworks","TRUE","SSH file transfer protocol"
-"Yammer","Bruk","Tools","TRUE",
-"Draw.io","Bruk","Tools","TRUE","Språk/verktøry for å beskrive diagrammer"
-"Nt Boot","Bruk","Languages-and-frameworks","TRUE","NT overbygg til Spring boot"
-"NT Ktor","Bruk","Languages-and-frameworks","TRUE","NT overbygg til Ktor"
-"Web sequence diagram","Bruk","Tools","TRUE","Språk/verktøry for å beskrive diagrammer"
-"Policy as Code","Uforsk","Techniques","TRUE","Policy-sjekker som del av byggekode"
-"GitHub","Bruk","Platform","TRUE","Koderepo og byggejobber (actions)"
-"Confluence","Bruk","Tools","TRUE","Dokumentasjonsverktøy"
-"Docsify","Bruk","Tools","TRUE","Dokumentasjonsverktøy"
-"Architecture Decision Record","Bruk","Techniques","TRUE","Metode for å dokumentere arkitekturavgjørelser"
-"JavaCI","Avslutt","Tools","TRUE","Byggeverktøy i form av Jenkins-pipelines"
-"Container-pipeline","Bruk","Tools","TRUE","Byggeverktøy i form av Jenkins-pipelines"
-"ChatGPT","Uforsk","Tools","TRUE","AI Chatbot"
-"DatoCMS","Bruk","Platform","TRUE","Hosted CMS"
+Slite,assess,tools,TRUE,Dok i på team nivå. Test fra PI24. https://slite.com/
+SonarQube,adopt,tools,TRUE,Verktøy for kvalitetsanalyse av kildekode
+Conduktor,adopt,tools,TRUE,Verktøy for inspisering av Kafka-meldinger
+Docker Desktop,adopt,tools,TRUE,Lokal utvikling
+Figma,adopt,tools,TRUE,UX design og prototyping
+IntelliJ,adopt,tools,TRUE,Java og Kotlin IDE
+SQL Developer,adopt,tools,TRUE,Databaseaksess
+Teams,adopt,platform,TRUE,Kommunikasjonsplattform
+Slack,hold,platform,TRUE,Kommunikasjonsplattform
+Kafka,adopt,platform,TRUE,Event streaming plattform
+Kafka Connect,adopt,platform,TRUE,Event streaming plattform
+Browser stack,adopt,tools,TRUE,Web og mobil testverktøy
+Miro,adopt,tools,TRUE,Kommunikasjon- og samarbeidsverktøy
+Sketch,hold,tools,TRUE,UX design og prototyping
+Abstract,hold,tools,TRUE,UX design og prototyping
+Mermaid,hold,tools,TRUE,Språk/verktøry for å beskrive diagrammer
+C4,adopt,techniques,TRUE,"Modelleringsteknikk hvor man tegner systemer basert på context, container, components og code"
+Jenkins,hold,platform,TRUE,CI/CD-plattform
+Sentry,hold,languages-and-frameworks,TRUE,Rammeverk for feilsøking og overvåking (Omniweb)
+webpack,adopt,languages-and-frameworks,TRUE,Pakkeverktøy for JavaScript-applikasjoner
+Cypress,adopt,tools,TRUE,Testverktøy for front end
+Splunk,adopt,platform,TRUE,Platform for feilsøking og overvåking
+AppDynamics,adopt,platform,TRUE,Platform for feilsøking og overvåking
+Kotlin,adopt,languages-and-frameworks,TRUE,Programmeringsspråk
+Java,adopt,languages-and-frameworks,TRUE,Programmeringsspråk
+Rust,assess,languages-and-frameworks,TRUE,Programmeringsspråk med potensiale knyttet til AWS
+Spring boot,adopt,languages-and-frameworks,TRUE,Rammeverk for REST-API'er
+Sonarlint,adopt,tools,TRUE,Plugin for kvalitetsanalyse av kildekode knyttet til SonarQube
+Grafana,adopt,platform,TRUE,Platform for overvåking. Visualisering av metrikker.
+Prometheus,adopt,platform,TRUE,Platform for overvåking. Innsamling av metrikker.
+ArgoCD,adopt,platform,TRUE,CD-platform for k8s
+Flyway,adopt,tools,TRUE,Automatisk DB-deployment/migrering
+Ktor,adopt,languages-and-frameworks,TRUE,Rammeverk for asynkrone løsninger i Kotlin
+Apache Maven,adopt,tools,TRUE,Verktøy for automatiserte bygg
+logback,hold,languages-and-frameworks,TRUE,Rammeverk for serialisering av darta basert på JSON-spec
+log4j,adopt,languages-and-frameworks,TRUE,Rammeverk for logging
+Bender,adopt,tools,TRUE,Konfigurasjonsrepository
+mg,hold,languages-and-frameworks,TRUE,Egenutviklet kommandolinjeverktøy bruker metaGraf-spec for å lage nødvendige “byggeklosser” i Kubernetes eller OpenShift
+Middle Earth,hold,tools,TRUE,Egenutviklet verktøy for deployment i alle miljøer
+Websphere Liberty Profile,hold,platform,TRUE,IBM appserver
+Lombok,hold,languages-and-frameworks,TRUE,Java-bibliotek for redusering av boilerplate-kode
+Kanban,adopt,techniques,TRUE,Arbeidsmetodikk
+SAFe,adopt,techniques,TRUE,Arbeidsmetodikk
+Scrum,adopt,techniques,TRUE,Arbeidsmetodikk
+OpenID Connect/Keycloak/OAuth2,adopt,platform,TRUE,Autentiserings- og autorisasjonsverktøy
+Vault,adopt,platform,TRUE,System for håndering av hemmeligheter
+QlikSense,adopt,platform,TRUE,ETL og Business analyse
+QlikView,adopt,platform,TRUE,ETL og Business analyse
+Power BI,adopt,tools,TRUE,ETL og Business analyse
+Business Objects,adopt,platform,TRUE,ETL og Business analyse
+Gatling,adopt,languages-and-frameworks,TRUE,Verktøy for ytelsestest
+Postman,adopt,tools,TRUE,Verktøy for utvikling og automatiserte tester av API-er
+Fitnesse,hold,tools,TRUE,Verktøy for automatiserte tester
+Google Analytics,adopt,platform,TRUE,Verktøy for webanalyse
+Hotjar,adopt,tools,TRUE,Verktøy for analyse av brukerinteraksjon på web
+VSCode,adopt,tools,TRUE,IDE
+Git,adopt,tools,TRUE,Versjonskontrollsystem
+Bitbucket,adopt,tools,TRUE,Git repository hosting system
+graphql,hold,languages-and-frameworks,TRUE,Query languange for API
+Enonic XP,hold,platform,TRUE,CMS
+Websocket,apodt,platform,TRUE,Kommunkasjonsprotokoll web browser <-> server
+Openshift,adopt,platform,TRUE,k8s container plattform
+Draw.io,adopt,tools,TRUE,Språk/verktøy for å beskrive diagrammer
+Nt Boot,adopt,languages-and-frameworks,TRUE,NT overbygg til Spring boot
+NT Ktor,adopt,languages-and-frameworks,TRUE,NT overbygg til Ktor
+Policy as Code,assess,techniques,TRUE,Policy-sjekker som del av byggekode
+GitHub,adopt,platform,TRUE,Koderepo og byggejobber (actions)
+Confluence,adopt,tools,TRUE,Dokumentasjonsverktøy
+Docsify,adopt,tools,TRUE,Dokumentasjonsverktøy
+Architecture Decision Record,adopt,techniques,TRUE,Metode for å dokumentere arkitekturavgjørelser
+JavaCI,hold,tools,TRUE,Byggeverktøy i form av Jenkins-pipelines
+Container-pipeline,adopt,tools,TRUE,Byggeverktøy i form av Jenkins-pipelines
+ChatGPT,trial,tools,TRUE,AI Chatbot
+CodeWhisperer,assess,tools,TRUE,AI verktøy for å hjelpe utvilkere
+Copilot,assess,tools,TRUE,AI verktøy for å hjelpe utvilkere
+DatoCMS,Bruk,Platform,TRUE,Hosted CMS
