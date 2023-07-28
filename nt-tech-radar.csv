@@ -1,76 +1,75 @@
 name,ring,quadrant,isNew,description
 Slite,assess,tools,TRUE,Dok i på team nivå. Test fra PI24. https://slite.com/
-SonarQube,adopt,tools,TRUE,Verktøy for kvalitetsanalyse av kildekode
+SonarQube,adopt,tools,FALSE,Verktøy for kvalitetsanalyse av kildekode
 Conduktor,adopt,tools,TRUE,Verktøy for inspisering av Kafka-meldinger
-Docker Desktop,adopt,tools,TRUE,Lokal utvikling
-Figma,adopt,tools,TRUE,UX design og prototyping
-IntelliJ,adopt,tools,TRUE,Java og Kotlin IDE
-SQL Developer,adopt,tools,TRUE,Databaseaksess
-Teams,adopt,platforms,TRUE,Kommunikasjonsplattform
-Slack,hold,platforms,TRUE,Kommunikasjonsplattform
-Kafka,adopt,platforms,TRUE,Event streaming plattform
-Kafka Connect,adopt,platforms,TRUE,Event streaming plattform
-Browser stack,adopt,tools,TRUE,Web og mobil testverktøy
-Miro,adopt,tools,TRUE,Kommunikasjon- og samarbeidsverktøy
-Sketch,hold,tools,TRUE,UX design og prototyping
-Abstract,hold,tools,TRUE,UX design og prototyping
-Mermaid,hold,tools,TRUE,Språk/verktøry for å beskrive diagrammer
-C4,adopt,techniques,TRUE,"Modelleringsteknikk hvor man tegner systemer basert på context, container, components og code"
-Jenkins,hold,platforms,TRUE,CI/CD-plattform
-Sentry,hold,languages-and-frameworks,TRUE,Rammeverk for feilsøking og overvåking (Omniweb)
-webpack,adopt,languages-and-frameworks,TRUE,Pakkeverktøy for JavaScript-applikasjoner
-Cypress,adopt,tools,TRUE,Testverktøy for front end
-Splunk,adopt,platforms,TRUE,Platform for feilsøking og overvåking
+Docker Desktop,adopt,tools,FALSE,Lokal utvikling
+Figma,adopt,tools,FALSE,UX design og prototyping
+IntelliJ,adopt,tools,FALSE,Java og Kotlin IDE
+SQL Developer,adopt,tools,FALSE,Databaseaksess
+Teams,adopt,platforms,FALSE,Kommunikasjonsplattform
+Slack,hold,platforms,FALSE,Kommunikasjonsplattform
+Kafka,adopt,platforms,FALSE,Event streaming plattform
+Kafka Connect,adopt,languages-and-frameworks,FALSE,Open source komponent for Kafka
+Browser stack,adopt,tools,FALSE,Web og mobil testverktøy
+Miro,adopt,tools,FALSE,Kommunikasjon- og samarbeidsverktøy
+Sketch,hold,tools,FALSE,UX design og prototyping
+Abstract,hold,tools,FALSE,UX design og prototyping
+Mermaid,hold,tools,FALSE,Språk/verktøry for å beskrive diagrammer
+C4,adopt,techniques,FALSE,"Modelleringsteknikk hvor man tegner systemer basert på context, container, components og code"
+Jenkins,hold,platforms,FALSE,CI/CD-plattform
+Sentry,hold,languages-and-frameworks,FALSE,Rammeverk for feilsøking og overvåking (Omniweb)
+webpack,adopt,languages-and-frameworks,FALSE,Pakkeverktøy for JavaScript-applikasjoner
+Cypress,adopt,tools,FALSE,Testverktøy for front end
+Splunk,adopt,platforms,FALSE,Platform for feilsøking og overvåking
 AppDynamics,adopt,platforms,TRUE,Platform for feilsøking og overvåking
-Kotlin,adopt,languages-and-frameworks,TRUE,Programmeringsspråk
-Java,adopt,languages-and-frameworks,TRUE,Programmeringsspråk
+Kotlin,adopt,languages-and-frameworks,FALSE,Programmeringsspråk
+Java,adopt,languages-and-frameworks,FALSE,Programmeringsspråk
 Rust,assess,languages-and-frameworks,TRUE,Programmeringsspråk med potensiale knyttet til AWS
-Spring boot,adopt,languages-and-frameworks,TRUE,Rammeverk for REST-API'er
+Spring boot,adopt,languages-and-frameworks,FALSE,Rammeverk for REST-API'er
 Sonarlint,adopt,tools,TRUE,Plugin for kvalitetsanalyse av kildekode knyttet til SonarQube
 Grafana,adopt,platforms,TRUE,Platform for overvåking. Visualisering av metrikker.
 Prometheus,adopt,platforms,TRUE,Platform for overvåking. Innsamling av metrikker.
 ArgoCD,adopt,platforms,TRUE,CD-platform for k8s
 Flyway,adopt,tools,TRUE,Automatisk DB-deployment/migrering
-Ktor,adopt,languages-and-frameworks,TRUE,Rammeverk for asynkrone løsninger i Kotlin
-Apache Maven,adopt,tools,TRUE,Verktøy for automatiserte bygg
-logback,hold,languages-and-frameworks,TRUE,Rammeverk for serialisering av darta basert på JSON-spec
-log4j,adopt,languages-and-frameworks,TRUE,Rammeverk for logging
+Ktor,adopt,languages-and-frameworks,FALSE,Rammeverk for asynkrone løsninger i Kotlin
+Apache Maven,adopt,tools,FALSE,Verktøy for automatiserte bygg
+logback,hold,languages-and-frameworks,FALSE,Rammeverk for serialisering av darta basert på JSON-spec
+log4j,adopt,languages-and-frameworks,FALSE,Rammeverk for logging
 Bender,adopt,tools,TRUE,Konfigurasjonsrepository
-mg,hold,languages-and-frameworks,TRUE,Egenutviklet kommandolinjeverktøy bruker metaGraf-spec for å lage nødvendige “byggeklosser” i Kubernetes eller OpenShift
-Middle Earth,hold,tools,TRUE,Egenutviklet verktøy for deployment i alle miljøer
-Websphere Liberty Profile,hold,platforms,TRUE,IBM appserver
-Lombok,hold,languages-and-frameworks,TRUE,Java-bibliotek for redusering av boilerplate-kode
-Kanban,adopt,techniques,TRUE,Arbeidsmetodikk
-SAFe,adopt,techniques,TRUE,Arbeidsmetodikk
-Scrum,adopt,techniques,TRUE,Arbeidsmetodikk
-OpenID Connect/Keycloak/OAuth2,adopt,platforms,TRUE,Autentiserings- og autorisasjonsverktøy
+mg,hold,languages-and-frameworks,FALSE,Egenutviklet kommandolinjeverktøy bruker metaGraf-spec for å lage nødvendige “byggeklosser” i Kubernetes eller OpenShift
+Middle Earth,hold,tools,FALSE,Egenutviklet verktøy for deployment i alle miljøer
+Websphere Liberty Profile,hold,platforms,FALSE,IBM appserver
+Lombok,hold,languages-and-frameworks,FALSE,Java-bibliotek for redusering av boilerplate-kode
+Kanban,adopt,techniques,FALSE,Arbeidsmetodikk
+SAFe,adopt,techniques,FALSE,Arbeidsmetodikk
+Scrum,adopt,techniques,FALSE,Arbeidsmetodikk
+OpenID Connect/Keycloak/OAuth2,adopt,languages-and-frameworks,TRUE,Autentiserings- og autorisasjonsverktøy
 Vault,adopt,platforms,TRUE,System for håndering av hemmeligheter
-QlikSense,adopt,platforms,TRUE,ETL og Business analyse
-QlikView,adopt,platforms,TRUE,ETL og Business analyse
-Power BI,adopt,tools,TRUE,ETL og Business analyse
-Business Objects,adopt,platforms,TRUE,ETL og Business analyse
+QlikSense/QlikView,adopt,platforms,FALSE,ETL og Business analyse
+Power BI,adopt,tools,FALSE,ETL og Business analyse
 Gatling,adopt,languages-and-frameworks,TRUE,Verktøy for ytelsestest
-Postman,adopt,tools,TRUE,Verktøy for utvikling og automatiserte tester av API-er
-Fitnesse,hold,tools,TRUE,Verktøy for automatiserte tester
-Google Analytics,adopt,platforms,TRUE,Verktøy for webanalyse
-Hotjar,adopt,tools,TRUE,Verktøy for analyse av brukerinteraksjon på web
-VSCode,adopt,tools,TRUE,IDE
-Git,adopt,tools,TRUE,Versjonskontrollsystem
-Bitbucket,adopt,tools,TRUE,Git repository hosting system
-graphql,hold,languages-and-frameworks,TRUE,Query languange for API
-Enonic XP,hold,platforms,TRUE,CMS
-Websocket,apodt,platforms,TRUE,Kommunkasjonsprotokoll web browser <-> server
-Openshift,adopt,platforms,TRUE,k8s container plattform
-Draw.io,adopt,tools,TRUE,Språk/verktøy for å beskrive diagrammer
-Nt Boot,adopt,languages-and-frameworks,TRUE,NT overbygg til Spring boot
-NT Ktor,adopt,languages-and-frameworks,TRUE,NT overbygg til Ktor
+Postman,adopt,tools,FALSE,Verktøy for utvikling og automatiserte tester av API-er
+Fitnesse,hold,tools,FALSE,Verktøy for automatiserte tester
+Google Analytics,adopt,platforms,FALSE,Verktøy for webanalyse
+Hotjar,adopt,tools,FALSE,Verktøy for analyse av brukerinteraksjon på web
+VSCode,adopt,tools,FALSE,IDE
+Git,adopt,tools,FALSE,Versjonskontrollsystem
+Bitbucket,adopt,tools,FALSE,Git repository hosting system
+graphql,hold,languages-and-frameworks,FALSE,Query languange for API
+Enonic XP,hold,platforms,FALSE,CMS
+Websocket,adopt,languages-and-frameworks,FALSE,Kommunkasjonsprotokoll web browser <-> server
+Openshift,adopt,platforms,FALSE,k8s container plattform
+Draw.io,adopt,tools,FALSE,Språk/verktøy for å beskrive diagrammer
+NT Boot,adopt,languages-and-frameworks,FALSE,NT overbygg til Spring boot
+NT Ktor,adopt,languages-and-frameworks,FALSE,NT overbygg til Ktor
 Policy as Code,assess,techniques,TRUE,Policy-sjekker som del av byggekode
 GitHub,adopt,platforms,TRUE,Koderepo og byggejobber (actions)
 Confluence,adopt,tools,TRUE,Dokumentasjonsverktøy
-Docsify,adopt,tools,TRUE,Dokumentasjonsverktøy
+Docsify,adopt,tools,FALSE,Dokumentasjonsverktøy
 Architecture Decision Record,adopt,techniques,TRUE,Metode for å dokumentere arkitekturavgjørelser
-JavaCI,hold,tools,TRUE,Byggeverktøy i form av Jenkins-pipelines
-Container-pipeline,adopt,tools,TRUE,Byggeverktøy i form av Jenkins-pipelines
+JavaCI,hold,tools,FALSE,Byggeverktøy i form av Jenkins-pipelines
+Container-pipeline,adopt,tools,FALSE,Byggeverktøy i form av Jenkins-pipelines
+AWS,adopt,platforms,TRUE,Skyløsning fra Amazon
 ChatGPT,trial,tools,TRUE,AI Chatbot
 CodeWhisperer,assess,tools,TRUE,AI verktøy for å hjelpe utvilkere
 Copilot,assess,tools,TRUE,AI verktøy for å hjelpe utvilkere
