@@ -29,6 +29,7 @@ Spring boot,adopt,languages-and-frameworks,FALSE,Rammeverk for REST-API'er
 Sonarlint,adopt,tools,TRUE,Plugin for kvalitetsanalyse av kildekode knyttet til SonarQube
 Grafana,adopt,platforms,TRUE,Platform for overvåking. Visualisering av metrikker.
 Prometheus,adopt,platforms,TRUE,Platform for overvåking. Innsamling av metrikker.
+Terraform,adopt,languages-and-frameworks,TRUE,Infrastructure as code
 ArgoCD,adopt,platforms,TRUE,CD-platform for k8s
 Flyway,adopt,tools,TRUE,Automatisk DB-deployment/migrering
 Ktor,adopt,languages-and-frameworks,FALSE,Rammeverk for asynkrone løsninger i Kotlin
