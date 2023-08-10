@@ -25,7 +25,7 @@ AppDynamics,adopt,platforms,TRUE,Platform for feilsøking og overvåking
 Kotlin,adopt,languages-and-frameworks,FALSE,Programmeringsspråk
 Java,adopt,languages-and-frameworks,FALSE,Programmeringsspråk
 Rust,assess,languages-and-frameworks,TRUE,Programmeringsspråk med potensiale knyttet til AWS
-Spring boot,adopt,languages-and-frameworks,FALSE,Rammeverk for REST-API'er
+Spring boot,adopt,languages-and-frameworks,FALSE,Rammeverk for REST-API'er. Brukt i nt-boot og nt-boot-3
 Sonarlint,adopt,tools,TRUE,Plugin for kvalitetsanalyse av kildekode knyttet til SonarQube
 Grafana,adopt,platforms,TRUE,Platform for overvåking. Visualisering av metrikker.
 Prometheus,adopt,platforms,TRUE,Platform for overvåking. Innsamling av metrikker.
@@ -34,13 +34,13 @@ ArgoCD,adopt,platforms,TRUE,CD-platform for k8s
 Flyway,adopt,tools,TRUE,Automatisk DB-deployment/migrering
 Ktor,adopt,languages-and-frameworks,FALSE,Rammeverk for asynkrone løsninger i Kotlin
 Apache Maven,adopt,tools,FALSE,Verktøy for automatiserte bygg
-logback,hold,languages-and-frameworks,FALSE,Rammeverk for serialisering av darta basert på JSON-spec
+logback,adopt,languages-and-frameworks,FALSE,Rammeverk for logging. Støtter JSON-logging. Brukt i Spring Boot/nt-boot-3 og nt-ktor.
 log4j,adopt,languages-and-frameworks,FALSE,Rammeverk for logging
 Bender,adopt,tools,TRUE,Konfigurasjonsrepository
 mg,hold,languages-and-frameworks,FALSE,Egenutviklet kommandolinjeverktøy bruker metaGraf-spec for å lage nødvendige “byggeklosser” i Kubernetes eller OpenShift
 Middle Earth,hold,tools,FALSE,Egenutviklet verktøy for deployment i alle miljøer
 Websphere Liberty Profile,hold,platforms,FALSE,IBM appserver
-Lombok,hold,languages-and-frameworks,FALSE,Java-bibliotek for redusering av boilerplate-kode
+Lombok,hold,languages-and-frameworks,FALSE,Java-bibliotek for redusering av boilerplate-kode. Omdiskutert bibliotek. Kotlin dekker mye av behovene som Lombok løser.
 Kanban,adopt,techniques,FALSE,Arbeidsmetodikk
 SAFe,adopt,techniques,FALSE,Arbeidsmetodikk
 Scrum,adopt,techniques,FALSE,Arbeidsmetodikk
@@ -75,3 +75,5 @@ ChatGPT,trial,tools,TRUE,AI Chatbot
 CodeWhisperer,assess,tools,TRUE,AI verktøy for å hjelpe utvilkere
 Copilot,assess,tools,TRUE,AI verktøy for å hjelpe utvilkere
 DatoCMS,adopt,platforms,TRUE,Hosted CMS
+Stoplight,adopt,platforms,TRUE,Stoplight er en plattform for å utvikle og dokumentere APIer. https://api-portal.norsk-tipping.no
+API first,trial,techniques,TRUE,Metodikk som innebærer at APIet er en egen ressurs som utvikles uavhengig av applikasjoner som implementerer det. Fungerer fint med API-plattformen stoplight.
