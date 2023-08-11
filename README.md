@@ -6,4 +6,4 @@ Tech radar datagrunnlag. Vedlikeholdes av Virksomhetsarkitekt og systemarkitekte
 - Gå til https://radar.thoughtworks.com/
 - Lim inn lenke til datagrunnlagsfilen.
    - Merk! Man må benytte lenke til rå-data, og disse kan ta det noe tid før oppdateres. Sjekk manuelt at du har fått med deg nyeste utgave. https://raw.githubusercontent.com/Norsk-Tipping/tech-radar/main/nt-tech-radar.csv
-- Lenk ferdig produsert radar her, https://norsktipping.atlassian.net/wiki/spaces/EA/pages/2929786886/Tekonologiradar
+- Ferdig produsert radar finner du [her](https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FNorsk-Tipping%2Ftech-radar%2Fmain%2Fnt-tech-radar.csv)
