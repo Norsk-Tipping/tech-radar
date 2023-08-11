@@ -23,8 +23,8 @@ Cypress,adopt,tools,FALSE,Testverktøy for front end
 Splunk,adopt,platforms,FALSE,Platform for feilsøking og overvåking
 AppDynamics,adopt,platforms,TRUE,Platform for feilsøking og overvåking
 Kotlin,adopt,languages-and-frameworks,FALSE,Programmeringsspråk
-Java,adopt,languages-and-frameworks,FALSE,Programmeringsspråk
-Rust,assess,languages-and-frameworks,TRUE,Programmeringsspråk med potensiale knyttet til AWS
+Java,hold,languages-and-frameworks,FALSE,Programmeringsspråk
+Rust,trial,languages-and-frameworks,TRUE,Programmeringsspråk med potensiale knyttet til AWS
 Spring boot,adopt,languages-and-frameworks,FALSE,Rammeverk for REST-API'er. Brukt i nt-boot og nt-boot-3
 Sonarlint,adopt,tools,TRUE,Plugin for kvalitetsanalyse av kildekode knyttet til SonarQube
 Grafana,adopt,platforms,TRUE,Platform for overvåking. Visualisering av metrikker.
@@ -37,7 +37,7 @@ Apache Maven,adopt,tools,FALSE,Verktøy for automatiserte bygg
 logback,adopt,languages-and-frameworks,FALSE,Rammeverk for logging. Støtter JSON-logging. Brukt i Spring Boot/nt-boot-3 og nt-ktor.
 log4j,adopt,languages-and-frameworks,FALSE,Rammeverk for logging
 Bender,adopt,tools,TRUE,Konfigurasjonsrepository
-mg,hold,languages-and-frameworks,FALSE,Egenutviklet kommandolinjeverktøy bruker metaGraf-spec for å lage nødvendige “byggeklosser” i Kubernetes eller OpenShift
+Metagraf,hold,languages-and-frameworks,FALSE,Egenutviklet annotasjonsrammeverk for dokumentasjon og generering av komponenter i Openshift
 Middle Earth,hold,tools,FALSE,Egenutviklet verktøy for deployment i alle miljøer
 Websphere Liberty Profile,hold,platforms,FALSE,IBM appserver
 Lombok,hold,languages-and-frameworks,FALSE,Java-bibliotek for redusering av boilerplate-kode. Omdiskutert bibliotek. Kotlin dekker mye av behovene som Lombok løser.
@@ -46,7 +46,7 @@ SAFe,adopt,techniques,FALSE,Arbeidsmetodikk
 Scrum,adopt,techniques,FALSE,Arbeidsmetodikk
 OpenID Connect/Keycloak/OAuth2,adopt,languages-and-frameworks,TRUE,Autentiserings- og autorisasjonsverktøy
 Vault,adopt,platforms,TRUE,System for håndering av hemmeligheter
-QlikSense/QlikView,adopt,platforms,FALSE,ETL og Business analyse
+QlikSense/QlikView,adopt,tools,FALSE,ETL og Business analyse
 Power BI,adopt,tools,FALSE,ETL og Business analyse
 Gatling,adopt,languages-and-frameworks,TRUE,Verktøy for ytelsestest
 Postman,adopt,tools,FALSE,Verktøy for utvikling og automatiserte tester av API-er
@@ -56,10 +56,10 @@ Hotjar,adopt,tools,FALSE,Verktøy for analyse av brukerinteraksjon på web
 VSCode,adopt,tools,FALSE,IDE
 Git,adopt,tools,FALSE,Versjonskontrollsystem
 Bitbucket,adopt,tools,FALSE,Git repository hosting system
-graphql,hold,languages-and-frameworks,FALSE,Query languange for API
+graphql,trial,languages-and-frameworks,FALSE,Query languange for API
 Enonic XP,hold,platforms,FALSE,CMS
 Websocket,adopt,languages-and-frameworks,FALSE,Kommunkasjonsprotokoll web browser <-> server
-Openshift,adopt,platforms,FALSE,k8s container plattform
+Openshift,hold,platforms,FALSE,k8s container plattform
 Draw.io,adopt,tools,FALSE,Språk/verktøy for å beskrive diagrammer
 NT Boot,adopt,languages-and-frameworks,FALSE,NT overbygg til Spring boot
 NT Ktor,adopt,languages-and-frameworks,FALSE,NT overbygg til Ktor
@@ -77,3 +77,13 @@ Copilot,assess,tools,TRUE,AI verktøy for å hjelpe utvilkere
 DatoCMS,adopt,platforms,TRUE,Hosted CMS
 Stoplight,adopt,platforms,TRUE,Stoplight er en plattform for å utvikle og dokumentere APIer. https://api-portal.norsk-tipping.no
 API first,trial,techniques,TRUE,Metodikk som innebærer at APIet er en egen ressurs som utvikles uavhengig av applikasjoner som implementerer det. Fungerer fint med API-plattformen stoplight.
+OVIS,hold,platforms,FALSE,Database og sentrallager for norsk tipping's legacy løsninger
+GitHub Actions,adopt,tools,TRUE,Byggeverktøy for GitHub
+Karate,adopt,tools,TRUE,Testverktøy for automatiserte tester
+Unleash,adopt,platforms,TRUE,SaaS for feature-switching
+Tivoli,hold,tools,FALSE,Verktøy for å kjøre avstemmingsjobber
+Typescript,adopt,languages-and-frameworks,Overbygg til javascript for bedre utvikleropplevelse
+React,adopt,languages-and-frameworks,Front-end bibliotek for web utvikling
+SwiftUI,adopt,languages-and-frameworks,Rammeverk for utvikling av iOS applikasjoner
+
+
