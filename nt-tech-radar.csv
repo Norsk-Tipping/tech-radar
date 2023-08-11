@@ -85,5 +85,6 @@ Tivoli,hold,tools,FALSE,Verktøy for å kjøre avstemmingsjobber
 Typescript,adopt,languages-and-frameworks,TRUE,Overbygg til javascript for bedre utvikleropplevelse
 React,adopt,languages-and-frameworks,TRUE,Front-end bibliotek for web utvikling
 SwiftUI,adopt,languages-and-frameworks,TRUE,Rammeverk for utvikling av iOS applikasjoner
+SAP Business Objects,hold,tools,FALSE,Datarapporteringsverktøy
 
 
