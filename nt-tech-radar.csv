@@ -89,5 +89,4 @@ SAP Business Objects,hold,tools,FALSE,Datarapporteringsverktøy
 PowerCenter,hold,tools,FALSE,ETL for lasting inn i Norsk Tipping's datavarehus
 Tibco Datavirtualization,adopt,tools,FALSE,Logisk datavirtualiseringlag for analyse og rapporteringsverktøy
 Netezza Performance Server,hold,platforms,FALSE,Databaser for Norsk Tipping's datavarehus og datalake
-
-
+Lightweight RFC,trial,techniques,TRUE,Lettvekts Request for Comments til diskusjon før man eventuelt går videre til en ADR
