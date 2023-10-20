@@ -86,5 +86,8 @@ Typescript,adopt,languages-and-frameworks,TRUE,Overbygg til javascript for bedre
 React,adopt,languages-and-frameworks,TRUE,Front-end bibliotek for web utvikling
 SwiftUI,adopt,languages-and-frameworks,TRUE,Rammeverk for utvikling av iOS applikasjoner
 SAP Business Objects,hold,tools,FALSE,Datarapporteringsverktøy
+PowerCenter,hold,tools,FALSE,ETL for lasting inn i Norsk Tipping's datavarehus
+Tibco Datavirtualization,adopt,tools,FALSE,Logisk datavirtualiseringlag for analyse og rapporteringsverktøy
+Netezza Performance Server,hold,platforms,FALSE,Databaser for Norsk Tipping's datavarehus og datalake
 
 
