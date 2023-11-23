@@ -79,6 +79,7 @@ Stoplight,adopt,platforms,TRUE,Stoplight er en plattform for å utvikle og dokum
 API first,trial,techniques,TRUE,Metodikk som innebærer at APIet er en egen ressurs som utvikles uavhengig av applikasjoner som implementerer det. Fungerer fint med API-plattformen stoplight.
 OVIS,hold,platforms,FALSE,Database og sentrallager for norsk tipping's legacy løsninger
 GitHub Actions,adopt,tools,TRUE,Byggeverktøy for GitHub
+GitHub Pages,hold,tools,TRUE,Dokumentasjonsverktøy for GitHub
 Karate,adopt,tools,TRUE,Testverktøy for automatiserte tester
 Unleash,adopt,platforms,TRUE,SaaS for feature-switching
 Tivoli,hold,tools,FALSE,Verktøy for å kjøre avstemmingsjobber
