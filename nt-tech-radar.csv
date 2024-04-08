@@ -1,93 +1,92 @@
 name,ring,quadrant,isNew,description
-Slite,assess,tools,TRUE,Dok i på team nivå. Test fra PI24. https://slite.com/
-SonarQube,adopt,tools,FALSE,Verktøy for kvalitetsanalyse av kildekode
-Conduktor,adopt,tools,TRUE,Verktøy for inspisering av Kafka-meldinger
-Docker Desktop,adopt,tools,FALSE,Lokal utvikling
-Figma,adopt,tools,FALSE,UX design og prototyping
-IntelliJ,adopt,tools,FALSE,Java og Kotlin IDE
-SQL Developer,adopt,tools,FALSE,Databaseaksess
-Teams,adopt,platforms,FALSE,Kommunikasjonsplattform
-Slack,hold,platforms,FALSE,Kommunikasjonsplattform
-Kafka,adopt,platforms,FALSE,Event streaming plattform
-Kafka Connect,adopt,languages-and-frameworks,FALSE,Open source komponent for Kafka
-Browser stack,adopt,tools,FALSE,Web og mobil testverktøy
-Miro,adopt,tools,FALSE,Kommunikasjon- og samarbeidsverktøy
-Sketch,hold,tools,FALSE,UX design og prototyping
-Abstract,hold,tools,FALSE,UX design og prototyping
-Mermaid,hold,tools,FALSE,Språk/verktøry for å beskrive diagrammer
-C4,adopt,techniques,FALSE,"Modelleringsteknikk hvor man tegner systemer basert på context, container, components og code"
-Jenkins,hold,platforms,FALSE,CI/CD-plattform
-Sentry,hold,languages-and-frameworks,FALSE,Rammeverk for feilsøking og overvåking (Omniweb)
-webpack,adopt,languages-and-frameworks,FALSE,Pakkeverktøy for JavaScript-applikasjoner
-Cypress,adopt,tools,FALSE,Testverktøy for front end
-Splunk,adopt,platforms,FALSE,Platform for feilsøking og overvåking
-AppDynamics,adopt,platforms,TRUE,Platform for feilsøking og overvåking
-Kotlin,adopt,languages-and-frameworks,FALSE,Programmeringsspråk
-Java,hold,languages-and-frameworks,FALSE,Programmeringsspråk
-Rust,trial,languages-and-frameworks,TRUE,Programmeringsspråk med potensiale knyttet til AWS
-Spring boot,adopt,languages-and-frameworks,FALSE,Rammeverk for REST-API'er. Brukt i nt-boot og nt-boot-3
-Sonarlint,adopt,tools,TRUE,Plugin for kvalitetsanalyse av kildekode knyttet til SonarQube
-Grafana,adopt,platforms,TRUE,Platform for overvåking. Visualisering av metrikker.
-Prometheus,adopt,platforms,TRUE,Platform for overvåking. Innsamling av metrikker.
-Terraform,adopt,languages-and-frameworks,TRUE,Infrastructure as code
-ArgoCD,adopt,platforms,TRUE,CD-platform for k8s
-Flyway,adopt,tools,TRUE,Automatisk DB-deployment/migrering
-Ktor,adopt,languages-and-frameworks,FALSE,Rammeverk for asynkrone løsninger i Kotlin
-Apache Maven,adopt,tools,FALSE,Verktøy for automatiserte bygg
-logback,adopt,languages-and-frameworks,FALSE,Rammeverk for logging. Støtter JSON-logging. Brukt i Spring Boot/nt-boot-3 og nt-ktor.
-log4j,adopt,languages-and-frameworks,FALSE,Rammeverk for logging
-Bender,adopt,tools,TRUE,Konfigurasjonsrepository
-Metagraf,hold,languages-and-frameworks,FALSE,Egenutviklet annotasjonsrammeverk for dokumentasjon og generering av komponenter i Openshift
-Middle Earth,hold,tools,FALSE,Egenutviklet verktøy for deployment i alle miljøer
-Websphere Liberty Profile,hold,platforms,FALSE,IBM appserver
-Lombok,hold,languages-and-frameworks,FALSE,Java-bibliotek for redusering av boilerplate-kode. Omdiskutert bibliotek. Kotlin dekker mye av behovene som Lombok løser.
-Kanban,adopt,techniques,FALSE,Arbeidsmetodikk
-SAFe,adopt,techniques,FALSE,Arbeidsmetodikk
-Scrum,adopt,techniques,FALSE,Arbeidsmetodikk
-OpenID Connect/Keycloak/OAuth2,adopt,languages-and-frameworks,TRUE,Autentiserings- og autorisasjonsverktøy
-Vault,adopt,platforms,TRUE,System for håndering av hemmeligheter
-QlikSense/QlikView,adopt,tools,FALSE,ETL og Business analyse
-Power BI,adopt,tools,FALSE,ETL og Business analyse
-Gatling,adopt,languages-and-frameworks,TRUE,Verktøy for ytelsestest
-Postman,adopt,tools,FALSE,Verktøy for utvikling og automatiserte tester av API-er
-Fitnesse,hold,tools,FALSE,Verktøy for automatiserte tester
-Google Analytics,adopt,platforms,FALSE,Verktøy for webanalyse
-Hotjar,adopt,tools,FALSE,Verktøy for analyse av brukerinteraksjon på web
-VSCode,adopt,tools,FALSE,IDE
-Git,adopt,tools,FALSE,Versjonskontrollsystem
-Bitbucket,adopt,tools,FALSE,Git repository hosting system
-graphql,trial,languages-and-frameworks,FALSE,Query languange for API
-Enonic XP,hold,platforms,FALSE,CMS
-Websocket,adopt,languages-and-frameworks,FALSE,Kommunkasjonsprotokoll web browser <-> server
-Openshift,hold,platforms,FALSE,k8s container plattform
-Draw.io,adopt,tools,FALSE,Språk/verktøy for å beskrive diagrammer
-NT Boot,adopt,languages-and-frameworks,FALSE,NT overbygg til Spring boot
-NT Ktor,adopt,languages-and-frameworks,FALSE,NT overbygg til Ktor
-Policy as Code,assess,techniques,TRUE,Policy-sjekker som del av byggekode
-GitHub,adopt,platforms,TRUE,Koderepo og byggejobber (actions)
-Confluence,adopt,tools,TRUE,Dokumentasjonsverktøy
-Docsify,adopt,tools,FALSE,Dokumentasjonsverktøy
-Architecture Decision Record,adopt,techniques,TRUE,Metode for å dokumentere arkitekturavgjørelser
-JavaCI,hold,tools,FALSE,Byggeverktøy i form av Jenkins-pipelines
-Container-pipeline,adopt,tools,FALSE,Byggeverktøy i form av Jenkins-pipelines
-AWS,adopt,platforms,TRUE,Skyløsning fra Amazon
-ChatGPT,trial,tools,TRUE,AI Chatbot
-CodeWhisperer,assess,tools,TRUE,AI verktøy for å hjelpe utvilkere
-Copilot,assess,tools,TRUE,AI verktøy for å hjelpe utvilkere
-DatoCMS,adopt,platforms,TRUE,Hosted CMS
+SonarQube,adopt,tools,FALSE,Verktøy for kvalitetsanalyse av kildekode. Benyttes for å analysere leveranser som skal kjøre on-prem. https://sonarqube-bygg.apps.ocpdq02.norsk-tipping.no/projects?sort=-analysis_date
+Conduktor,adopt,tools,TRUE,Komplett ende-til-ende verktøy for kafka utvikling og drift. https://www.conduktor.io/
+Docker Desktop,adopt,tools,FALSE,Lokal utvikling. https://www.docker.com/products/docker-desktop
+Figma,adopt,tools,FALSE,UX design og prototyping. https://www.figma.com/
+IntelliJ,adopt,tools,FALSE,IDE for Java-utvikling. https://www.jetbrains.com/idea/
+SQL Developer,adopt,tools,FALSE,Verktøy for å jobbe med databaser. https://www.oracle.com/database/technologies/appdev/sqldeveloper-landing.html
+Teams,adopt,platforms,FALSE,Kommunikasjonsplattform. https://www.microsoft.com/nb-no/microsoft-teams/group-chat-software
+Slack,hold,platforms,FALSE,Kommunikasjonsplattform. https://slack.com/intl/en-no/
+Kafka,adopt,platforms,FALSE,Event streaming plattform. https://kafka.apache.org/
+Kafka Connect,adopt,languages-and-frameworks,FALSE,Open source komponent for Kafka. https://kafka.apache.org/documentation/#connect
+Browser stack,adopt,tools,FALSE,Web og mobil testverktøy. https://www.browserstack.com/
+Miro,adopt,tools,FALSE,Kommunikasjon- og samarbeidsverktøy hvor man skisser løsninger. https://miro.com/
+Sketch,hold,tools,FALSE,UX design og prototyping. https://www.sketch.com/
+Abstract,hold,tools,FALSE,UX design og prototyping. https://www.abstract.com/
+Mermaid,hold,tools,FALSE,Språk/verktøry for å beskrive diagrammer. Vi ønsker å benytte C4 derav hold. https://mermaid-js.github.io/mermaid/#/
+C4,adopt,techniques,FALSE,"Modelleringsteknikk hvor man tegner systemer basert på context, container, components og code. https://c4model.com/"
+Jenkins,hold,platforms,FALSE,CI/CD-plattform. Ved overgang til sky skal vi bort fra Jenkins og de selvutviklede pipelines. https://www.jenkins.io/
+Sentry,hold,languages-and-frameworks,FALSE,Rammeverk for feilsøking og overvåking (Omniweb). https://sentry.io/
+webpack,adopt,languages-and-frameworks,FALSE,Pakkeverktøy for JavaScript-applikasjoner. https://webpack.js.org/
+Cypress,adopt,tools,FALSE,Testverktøy for front end. https://www.cypress.io/
+Splunk,adopt,platforms,FALSE,Platform for feilsøking og overvåking. https://www.splunk.com/
+AppDynamics,adopt,platforms,TRUE,Platform for feilsøking og overvåking. https://www.appdynamics.com/
+Kotlin,adopt,languages-and-frameworks,FALSE,Programmeringsspråk. https://kotlinlang.org/
+Java,hold,languages-and-frameworks,FALSE,Programmeringsspråk. Fases ut som del av on-prem. Andre språk bør benyttes i lambdaer/sky. https://www.java.com/
+Rust,trial,languages-and-frameworks,TRUE,Programmeringsspråk med potensiale knyttet til AWS. https://www.rust-lang.org/
+Spring boot,adopt,languages-and-frameworks,FALSE,Rammeverk for REST-API'er. Brukt i nt-boot og nt-boot-3. https://spring.io/projects/spring-boot
+Sonarlint,adopt,tools,TRUE,Plugin for kvalitetsanalyse av kildekode knyttet til SonarQube. https://www.sonarlint.org/
+Grafana,adopt,platforms,TRUE,Platform for overvåking. Visualisering av metrikker. https://grafana.com/
+Prometheus,adopt,platforms,TRUE,Platform for overvåking. Innsamling av metrikker. https://prometheus.io/
+Terraform,adopt,languages-and-frameworks,TRUE,Infrastructure as code. https://www.terraform.io/
+ArgoCD,adopt,platforms,TRUE,CD-platform for k8s. Benyttes for on-prem løsninger. Vil måtte utgå ved overgang til Sky. https://argoproj.github.io/argo-cd/
+Flyway,adopt,tools,TRUE,Automatisk DB-deployment/migrering. https://flywaydb.org/
+Ktor,adopt,languages-and-frameworks,FALSE,Rammeverk for asynkrone løsninger i Kotlin. https://ktor.io/
+Apache Maven,adopt,tools,FALSE,Verktøy for automatiserte bygg. Knyttet til on-prem løsinger. Vil måtte utgå på sikt. https://maven.apache.org/
+logback,adopt,languages-and-frameworks,FALSE,Rammeverk for logging. Støtter JSON-logging. Brukt i Spring Boot/nt-boot-3 og nt-ktor. https://logback.qos.ch/
+log4j,adopt,languages-and-frameworks,FALSE,Rammeverk for logging. Brukt i Spring Boot/nt-boot-3 og nt-ktor. https://logging.apache.org/log4j/2.x/
+Bender,adopt,tools,TRUE,Konfigurasjonsrepository. https://bender.norsk-tipping.no/
+Metagraf,hold,languages-and-frameworks,FALSE,Egenutviklet annotasjonsrammeverk for dokumentasjon og generering av komponenter i Openshift. Vi har ikke planer om å videreutvikle dette.
+Middle Earth,hold,tools,FALSE,Egenutviklet verktøy for deployment i alle miljøer. Vil antagelig utgå ved overgang til Sky. https://middlearth.prod01.norsk-tipping.no/index.html
+Websphere Liberty Profile,hold,platforms,FALSE,IBM appserver. Vil utgå ved overgang til Sky. https://www.ibm.com/support/pages/websphere-liberty
+Lombok,hold,languages-and-frameworks,FALSE,Java-bibliotek for redusering av boilerplate-kode. Omdiskutert bibliotek. Kotlin dekker mye av behovene som Lombok løser. https://projectlombok.org/
+Kanban,adopt,techniques,FALSE,Arbeidsmetodikk. https://www.atlassian.com/agile/kanban
+SAFe,adopt,techniques,FALSE,Arbeidsmetodikk. https://www.scaledagileframework.com/
+Scrum,adopt,techniques,FALSE,Arbeidsmetodikk. https://www.scrum.org/
+OpenID Connect/OAuth2,adopt,languages-and-frameworks,TRUE,Standard for autentisering og autorisasjon. https://openid.net/connect/
+Vault,adopt,platforms,TRUE,System for håndering av hemmeligheter. https://www.vaultproject.io/
+QlikSense/QlikView,adopt,tools,FALSE,ETL og Business analyse. https://www.qlik.com/
+Power BI,adopt,tools,FALSE,ETL og Business analyse. https://powerbi.microsoft.com/
+Gatling,adopt,languages-and-frameworks,TRUE,Verktøy for ytelsestest. https://gatling.io/
+Postman,adopt,tools,FALSE,Verktøy for utvikling og automatiserte tester av API-er. https://www.postman.com/
+Fitnesse,hold,tools,FALSE,Verktøy for automatiserte tester. Vil utgå ved utfasing av javaci-pipelines. https://fitnesse.org/
+Google Analytics,adopt,platforms,FALSE,Verktøy for webanalyse. https://analytics.google.com/
+Hotjar,adopt,tools,FALSE,Verktøy for analyse av brukerinteraksjon på web. https://www.hotjar.com/
+VSCode,adopt,tools,FALSE,IDE. https://code.visualstudio.com/
+Git,adopt,tools,FALSE,Versjonskontrollsystem. https://git-scm.com/
+Bitbucket,adopt,tools,FALSE,Git repository hosting system. https://bitbucket.org/
+graphql,trial,languages-and-frameworks,FALSE,Query languange for API. https://graphql.org/
+Enonic XP,hold,platforms,FALSE,CMS. Skal fases ut til fordel for datoCMS. https://enonic.com/
+Websocket,adopt,languages-and-frameworks,FALSE,Kommunkasjonsprotokoll web browser <-> server. https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+Openshift,adopt,platforms,FALSE,k8s container plattform. https://www.openshift.com/
+Draw.io,adopt,tools,FALSE,Språk/verktøy for å beskrive diagrammer. https://app.diagrams.net/
+NT Boot,adopt,languages-and-frameworks,FALSE,NT overbygg til Spring boot. https://bitbucket.norsk-tipping.no/projects/TR/repos/nt-boot-3/browse
+NT Ktor,adopt,languages-and-frameworks,FALSE,NT overbygg til Ktor. https://bitbucket.norsk-tipping.no/projects/TR/repos/nt-ktor/browse
+Policy as Code,assess,techniques,TRUE,Policy-sjekker som del av byggekode. 
+GitHub,adopt,platforms,TRUE,Koderepo og byggejobber (actions). https://github.com/Norsk-Tipping
+Confluence,adopt,tools,TRUE,Dokumentasjonsverktøy. Foretrukket som enhetlig plattform for dokumentasjon og samarbeid. https://norsktipping.atlassian.net/wiki
+docs.norsk-tipping.no,hold,tools,FALSE,Plattform for dokumentasjon. Erstattes av Confluence. https://docs.norsk-tipping.no/
+Architecture Decision Record,adopt,techniques,TRUE,Metode for å dokumentere arkitekturavgjørelser. https://norsktipping.atlassian.net/wiki/spaces/EA/pages/2872999937/ADR-prosess
+JavaCI,hold,tools,FALSE,Byggeverktøy i form av Jenkins-pipelines. Skal utgå enten ved overgang til containere eller til sky.
+Container-pipeline,adopt,tools,FALSE,Byggeverktøy i form av Jenkins-pipelines. Vil senere måtte utgå ved overgang til sky.
+AWS,adopt,platforms,TRUE,Skyløsning fra Amazon. https://aws.amazon.com/
+ChatGPT,hold,tools,TRUE,AI Chatbot. Bør ikke brukes da den ligger åpent og ikke sikrer dataene vi gir som input. https://chat.openai.com/
+CodeWhisperer,hold,tools,TRUE,AI verktøy fra AWS for å hjelpe utvilkere. Spesielt rettet mot AWS. https://aws.amazon.com/codeguru/
+GitHub Copilot,adopt,tools,TRUE,AI verktøy fra GitHub for å hjelpe utvilkere og testere samt andre som koder. https://copilot.github.com/
+DatoCMS,adopt,platforms,TRUE,Hosted CMS. https://www.datocms.com/
 Stoplight,adopt,platforms,TRUE,Stoplight er en plattform for å utvikle og dokumentere APIer. https://api-portal.norsk-tipping.no
-API first,trial,techniques,TRUE,Metodikk som innebærer at APIet er en egen ressurs som utvikles uavhengig av applikasjoner som implementerer det. Fungerer fint med API-plattformen stoplight.
-OVIS,hold,platforms,FALSE,Database og sentrallager for norsk tipping's legacy løsninger
-GitHub Actions,adopt,tools,TRUE,Byggeverktøy for GitHub
-GitHub Pages,hold,tools,TRUE,Dokumentasjonsverktøy for GitHub
-Karate,adopt,tools,TRUE,Testverktøy for automatiserte tester
-Unleash,adopt,platforms,TRUE,SaaS for feature-switching
-Tivoli,hold,tools,FALSE,Verktøy for å kjøre avstemmingsjobber
-Typescript,adopt,languages-and-frameworks,TRUE,Overbygg til javascript for bedre utvikleropplevelse
-React,adopt,languages-and-frameworks,TRUE,Front-end bibliotek for web utvikling
-SwiftUI,adopt,languages-and-frameworks,TRUE,Rammeverk for utvikling av iOS applikasjoner
-SAP Business Objects,hold,tools,FALSE,Datarapporteringsverktøy
-PowerCenter,hold,tools,FALSE,ETL for lasting inn i Norsk Tipping's datavarehus
-Tibco Datavirtualization,adopt,tools,FALSE,Logisk datavirtualiseringlag for analyse og rapporteringsverktøy
-Netezza Performance Server,hold,platforms,FALSE,Databaser for Norsk Tipping's datavarehus og datalake
-Lightweight RFC,trial,techniques,TRUE,Lettvekts Request for Comments til diskusjon før man eventuelt går videre til en ADR
+API first,adopt,techniques,TRUE,Metodikk som innebærer at APIet er en egen ressurs som utvikles uavhengig av applikasjoner som implementerer det. Fungerer fint med API-plattformen stoplight. 
+OVIS,hold,platforms,FALSE,Database og sentrallager for norsk tipping's legacy løsninger. Skal fases ut i forbindelse med splitting til celler. 
+GitHub Actions,adopt,tools,TRUE,Byggeverktøy for GitHub. https://github.com/features/actions
+GitHub Pages,hold,tools,TRUE,Dokumentasjonsverktøy for GitHub. Vi skal dokumentere på Confluence og ikke GitHub Pages. https://github.com/features/actions
+Karate,adopt,tools,TRUE,Testverktøy for automatiserte tester. https://www.karatelabs.io/
+Unleash,adopt,platforms,TRUE,SaaS for feature-switching. https://www.getunleash.io/
+Tivoli,hold,tools,FALSE,Verktøy for å kjøre avstemmingsjobber. Potensielt erstattes av andre verktøy/metoder ved overgang til sky og celler/byggeklosser.
+Typescript,adopt,languages-and-frameworks,TRUE,Overbygg til javascript for bedre utvikleropplevelse. https://www.typescriptlang.org/
+React,adopt,languages-and-frameworks,TRUE,Front-end bibliotek for web utvikling. https://reactjs.org/
+SwiftUI,adopt,languages-and-frameworks,TRUE,Rammeverk for utvikling av iOS applikasjoner. https://developer.apple.com/xcode/swiftui/
+SAP Business Objects,hold,tools,FALSE,Datarapporteringsverktøy. Skal fases ut i forbindelse med overgang til sky for datavarehus.
+PowerCenter,hold,tools,FALSE,ETL for lasting inn i Norsk Tipping's datavarehus. Skal fases ut i forbindelse med overgang til sky for datavarehus.
+Tibco Datavirtualization,adopt,tools,FALSE,Logisk datavirtualiseringlag for analyse og rapporteringsverktøy. https://www.tibco.com/products/tibco-data-virtualization
+Netezza Performance Server,hold,platforms,FALSE,Databaser for Norsk Tipping's datavarehus og datalake. Skal fases ut i forbindelse med overgang til sky for datavarehus.
+Lightweight RFC,adopt,techniques,TRUE,Lettvekts Request for Comments til diskusjon før man eventuelt går videre til en ADR. Finnes egen mal for disse i Confluence.
