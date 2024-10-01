@@ -22,7 +22,7 @@ Cypress,adopt,tools,FALSE,Testverktøy for front end. https://www.cypress.io/
 Splunk,adopt,platforms,FALSE,Platform for feilsøking og overvåking. https://www.splunk.com/
 AppDynamics,adopt,platforms,TRUE,Platform for feilsøking og overvåking. https://www.appdynamics.com/
 Kotlin,adopt,languages-and-frameworks,FALSE,Programmeringsspråk. https://kotlinlang.org/
-Java,hold,languages-and-frameworks,FALSE,Programmeringsspråk. Fases ut som del av on-prem. Andre språk bør benyttes i lambdaer/sky. https://www.java.com/
+Java,hold,languages-and-frameworks,FALSE,Programmeringsspråk. Foretrekkes generelt å bruke Kotlin eventuelt andre språk i lambdaer/sky. https://www.java.com/
 Rust,trial,languages-and-frameworks,TRUE,Programmeringsspråk med potensiale knyttet til AWS. https://www.rust-lang.org/
 Spring boot,adopt,languages-and-frameworks,FALSE,Rammeverk for REST-API'er. Brukt i nt-boot og nt-boot-3. https://spring.io/projects/spring-boot
 Sonarlint,adopt,tools,TRUE,Plugin for kvalitetsanalyse av kildekode knyttet til SonarQube. https://www.sonarlint.org/
@@ -90,3 +90,4 @@ PowerCenter,hold,tools,FALSE,ETL for lasting inn i Norsk Tipping's datavarehus. 
 Tibco Datavirtualization,adopt,tools,FALSE,Logisk datavirtualiseringlag for analyse og rapporteringsverktøy. https://www.tibco.com/products/tibco-data-virtualization
 Netezza Performance Server,hold,platforms,FALSE,Databaser for Norsk Tipping's datavarehus og datalake. Skal fases ut i forbindelse med overgang til sky for datavarehus.
 Lightweight RFC,adopt,techniques,TRUE,Lettvekts Request for Comments til diskusjon før man eventuelt går videre til en ADR. Finnes egen mal for disse i Confluence.
+Golang,adpot,languages-and-frameworks,TRUE,Programmeringsspråk. Benyttet på NT ifm infrastruktur. https://golang.org/
