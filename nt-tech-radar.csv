@@ -90,4 +90,4 @@ PowerCenter,hold,tools,FALSE,ETL for lasting inn i Norsk Tipping's datavarehus. 
 Tibco Datavirtualization,adopt,tools,FALSE,Logisk datavirtualiseringlag for analyse og rapporteringsverktøy. https://www.tibco.com/products/tibco-data-virtualization
 Netezza Performance Server,hold,platforms,FALSE,Databaser for Norsk Tipping's datavarehus og datalake. Skal fases ut i forbindelse med overgang til sky for datavarehus.
 Lightweight RFC,adopt,techniques,TRUE,Lettvekts Request for Comments til diskusjon før man eventuelt går videre til en ADR. Finnes egen mal for disse i Confluence.
-Golang,adpot,languages-and-frameworks,TRUE,Programmeringsspråk. Benyttet på NT ifm infrastruktur. https://golang.org/
+Golang,adopt,languages-and-frameworks,TRUE,Programmeringsspråk. Benyttet på NT ifm infrastruktur. https://golang.org/
